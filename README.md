@@ -6,7 +6,7 @@ delimeters and to clean out empty lines from input.
 
 ## Usage
 
-$ tab [option]... FILE
+  $ tab [option]... FILE
 
 Options include:
 - -d <regex> specify a regular expression on which to split columns
@@ -14,9 +14,9 @@ Options include:
 - -h         get usage information
 e.g. 
 
-$ tab -d '\|' -w 10 file
+  $ tab -d '\|' -w 10 file
 
 or
 
-$ cat file | tab -w 30
+  $ cat file | tab -w 30
 
