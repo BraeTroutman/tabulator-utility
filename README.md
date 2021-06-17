@@ -12,4 +12,8 @@ Options include:
 - -d <regex> specify a regular expression on which to split columns
 - -w <int>   specify a maximum column with
 - -h         get usage information
-  
+e.g. 
+  $ tab -d '\|' -w 10 file
+or
+  $ cat file | tab -w 30
+
