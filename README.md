@@ -13,7 +13,10 @@ Options include:
 - -w <int>   specify a maximum column with
 - -h         get usage information
 e.g. 
+
 $ tab -d '\|' -w 10 file
+
 or
+
 $ cat file | tab -w 30
 
