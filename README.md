@@ -9,5 +9,7 @@ delimeters and to clean out empty lines from input.
 $ tab [option]... FILE
 
 Options include:
-- -b
+- -d <regex> specify a regular expression on which to split columns
+- -w <int>   specify a maximum column with
+- -h         get usage information
   
